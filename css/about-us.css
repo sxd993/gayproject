@@ -26,6 +26,7 @@
 }
 html, body {
     height: 100%;
+    width: 100%;
     display: flex; 
     flex-direction: column;
 }
@@ -51,9 +52,6 @@ main {
     align-items: center;
 }
 .header__nav {
-    width: 298px;
-    height: 51px;
-    gap: 56px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,6 +63,7 @@ main {
     padding: 12px 32px;
     border-radius: 56px;
     margin-left: 56px;
+    margin-right: 48px;
     transition: all 0.7s ease;
 }
 .header__nav-home:hover {
@@ -72,9 +71,16 @@ main {
     color: black;
 }
 .header__nav-about-us{
+    padding: 12px 32px;
+    font-weight: 600;
     text-decoration: none;
     color: black;
     background-color: white;
+    border-radius: 56px;
+    transition: all 0.7s ease;
+}
+.header__nav-about-us:hover {
+    background-color: #f5f3f3;
 }
 .header__right-call-to-action {
     width: 185px;
