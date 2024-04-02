@@ -150,3 +150,37 @@ main {
     line-height: 170%;
     letter-spacing: 0.01em;
 }
+.cards {
+    width: 1312px;
+    height: 851px;
+}
+.cards-top {
+    width: 1312px;
+    height: 530px;
+    margin-bottom: 24px
+}
+.cards-top--left {
+    width: 896px;
+    height: 530px;
+}
+.cards-info {
+    border-radius: 24px;
+    padding: 24px 32px;
+    width: 864px;
+    height: 156px;
+    background-color: #F7F6F0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+}
+.cards-top--right {
+    width: 416px;
+    width: 530px;
+}
+.cards-bottom {
+    width: 1312px;
+    padding: 32px;
+    border-radius: 24px;
+    background-color: #d2f16c;
+    height: 297px;
+}
