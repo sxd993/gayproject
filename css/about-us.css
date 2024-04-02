@@ -26,7 +26,6 @@
 }
 html, body {
     height: 100%;
-    width: 100%;
     display: flex; 
     flex-direction: column;
 }
@@ -58,29 +57,28 @@ main {
 }
 .header__nav-home {
     text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 12px 32px;
+    border-radius: 56px;
+    margin: 0 48px 0 56px;
+    transition: all 0.7s ease;
+    font-weight: 600;
+}
+.header__nav-home:hover {
+    background-color: #E1e2e2;
+}
+.header__nav-about-us{
+    text-decoration: none;
     color: #d2f16c;
     background-color: #000;
     padding: 12px 32px;
     border-radius: 56px;
-    margin-left: 56px;
-    margin-right: 48px;
-    transition: all 0.7s ease;
-}
-.header__nav-home:hover {
-    background-color: #d2f16c;
-    color: black;
-}
-.header__nav-about-us{
-    padding: 12px 32px;
-    font-weight: 600;
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    border-radius: 56px;
     transition: all 0.7s ease;
 }
 .header__nav-about-us:hover {
-    background-color: #f5f3f3;
+    background-color: #d2f16c;
+    color: black;
 }
 .header__right-call-to-action {
     width: 185px;
@@ -125,4 +123,30 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 170%; 
+}
+.title {
+    width: 998px;
+    height: 274px;
+    margin: 40px 314px 59px 0;
+}
+.title_text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 170%;
+    padding-bottom: 8px;
+}
+.title_head {
+    height: 239px;
+}
+.title_head-up {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    margin-bottom: 32px;
+}
+.title_head-down {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
 }
