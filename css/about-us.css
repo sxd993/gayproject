@@ -155,32 +155,52 @@ main {
     height: 851px;
 }
 .cards-top {
+    display: flex;
     width: 1312px;
     height: 530px;
-    margin-bottom: 24px
+}
+.cards-info_text {
+    width: 800px;
+    height: 108px;
 }
 .cards-top--left {
     width: 896px;
     height: 530px;
+    margin-right: 24px;
 }
 .cards-info {
     border-radius: 24px;
     padding: 24px 32px;
-    width: 864px;
-    height: 156px;
+    width: 800px;
+    height: 108px;
     background-color: #F7F6F0;
     font-weight: 400;
     font-size: 16px;
     line-height: 170%;
+    margin-bottom: 24px;
 }
-.cards-top--right {
-    width: 416px;
-    width: 530px;
+.cards-photos {
+    display: flex;
+    width: 864px;
+    height: 350px;
+    gap: 32px;
 }
-.cards-bottom {
-    width: 1312px;
-    padding: 32px;
+.photo1 {
     border-radius: 24px;
-    background-color: #d2f16c;
-    height: 297px;
+    width: 416px;
+    height: 350px;
+    gap: 32px;
+}
+.photo2 {
+    border-radius: 24px;
+    width: 416px;
+    height: 350px;
+}
+
+.cards-top--right {
+    border-radius: 24px;
+    padding: 24px;
+    width: 392px;
+    height: 506px;
+    background-color: #F1F8D6;
 }
