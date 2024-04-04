@@ -151,6 +151,7 @@ main {
     letter-spacing: 0.01em;
 }
 .cards {
+    margin-bottom: 129px;
     width: 1312px;
     height: 851px;
 }
@@ -158,6 +159,7 @@ main {
     display: flex;
     width: 1312px;
     height: 530px;
+    margin-bottom: 24px;
 }
 .cards-info_text {
     width: 800px;
@@ -198,9 +200,85 @@ main {
 }
 
 .cards-top--right {
+    width: 416px;
     border-radius: 24px;
     padding: 24px;
-    width: 392px;
-    height: 506px;
     background-color: #F1F8D6;
+}
+.cards-partnerup--header {
+    width: 368px;
+}
+.cards-header--title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 32px;
+}
+.cards-header--paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    margin: 0 0 72px 0;
+}
+.cards-partnerup--bottom {
+    border-radius: 56px;
+    padding: 4px 4px 4px 0px;
+    width: 250px;
+    height: 60px;
+}
+.partnerup-button {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2f16c;
+    border-radius: 56px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+.partnerup-button--text {
+    width: 134px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17.8px;
+    line-height: 140%;
+    padding: 4px 24px 4px 32px;
+    transition: all 0.5s ease;
+}
+.partnerup-button img {
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    visibility: visible;
+    margin: 4px 6px 4px 0; 
+}
+.partnerup-button:hover img {
+    opacity: 0;
+    transform: translate(0%, 0%) scale(0);
+}
+.partnerup-button:hover .partnerup-button--text {
+    text-align: center;
+    padding-right: 0;
+    transform: translateX(5%);
+}
+.arrow_image-bottom {
+    margin: 4px 6px 4px 0;
+}
+.cards-bottom {
+    border-radius: 24px;
+    padding: 32px;
+    height: 233px;
+    background-color: #F1F8D6;
+}
+.cards-bottom--header {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    margin: 32px 380px 32px 32px;
+}
+.bottom-text1 {
+    margin-bottom: 15px;
 }
