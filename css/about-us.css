@@ -92,12 +92,12 @@ main {
     transition: all 0.7s ease;  
   }
   
-  .header__right-call-to-action:hover {
+.header__right-call-to-action:hover {
     background-color: black;
     color: #d2f16c;
   }
   
-  .footer {
+.footer {
     background-color: black;
 }
 .footer-info {
@@ -129,22 +129,22 @@ main {
     height: 274px;
     margin: 40px 314px 59px 0;
 }
-.title_text {
+.title-text {
     font-weight: 600;
     font-size: 16px;
     line-height: 170%;
     padding-bottom: 8px;
 }
-.title_head {
+.title-head {
     height: 239px;
 }
-.title_head-up {
+.title-head--up {
     font-weight: 700;
     font-size: 64px;
     line-height: 130%;
     margin-bottom: 32px;
 }
-.title_head-down {
+.title-head--down {
     font-weight: 400;
     font-size: 24px;
     line-height: 170%;
