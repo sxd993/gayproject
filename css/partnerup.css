@@ -302,6 +302,9 @@ main {
 input {
     outline: none;
 }
+textarea {
+    outline: none;
+}
 ::placeholder {
     font-weight: 400;
     font-size: 16px;
@@ -354,6 +357,6 @@ input {
     padding-right: 0;
     transform: translateX(5%);
 }
-.arrow_image-bottom {
+.arrow-image-bottom {
     margin: 4px 6px 4px 0;
 }
