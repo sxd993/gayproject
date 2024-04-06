@@ -207,57 +207,40 @@ main {
     background-color: #F7F6F0;
     margin-bottom: 4px;
 }
-.contact-section1 {
-    display: grid;
+.time {
     grid-row: 1;
-    grid-template-rows: 27px 4px 51px;
-    width: 640px;
-    height: 82px;
-}
-.contact-section2 {
     display: grid;
+    grid-template-rows: 27px 4px 51px;
+}
+.method {
     grid-row: 3;
+    display: grid;
     grid-template-rows: 27px 4px 51px;
-    width: 640px;
-    height: 82px; 
 }
-.section-label {
+.time-text {
     grid-row: 1;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 170%;
-    color: #808080;
 }
-.radio-buttons1,
-.radio-buttons2 {
+.method-text {
+    grid-row: 1;
+}
+.radio-buttons1 {
+    grid: 3;
     display: flex;
-    justify-content: space-between;
     width: 640px;
-    height: 51px;
+    grid-row: 3;
+    gap: 24px;   
 }
-.buttons-left,
-.buttons-right {
-    border-radius: 12px;
-    padding: 12px 16px;
-    width: calc(304px - 32px);
-    height: calc(51px - 24px);
-    background-color: white;
-    align-items: center;
+.button1 {
     flex: 1;
     display: flex;
-    margin-right: 32px;
-    transition: all 0.5s ease;
-    color: black;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 170%;
-
+    border-radius: 10px;
+    padding: 12px 16px;
+    background-color: white;
+    align-items: center;
 }
-.buttons-left input,
-.buttons-right input {
-    order: -1; 
-    margin-right: 12px; 
-}
+.button1 input {
+    margin-right: 12px;
+  }
 .contact-preferences {
     display: grid;
     grid-template-rows: 82px 24px 130px;
@@ -279,13 +262,13 @@ main {
     width: 100px;
     grid-row: 1;
   }
-  .radio-buttons3 {
+  .radio-buttons2 {
     display: flex;
     width: 640px;
     grid-row: 3;
     gap: 24px;
   }
-  .button3 {
+  .button2 {
     flex: 1;
     display: flex;
     border-radius: 10px;
@@ -293,7 +276,7 @@ main {
     background-color: white;
     align-items: center;
   }
-  .button3 input {
+  .button2 input {
     margin-right: 12px;
   }
 .comment {
