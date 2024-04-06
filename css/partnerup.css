@@ -304,6 +304,7 @@ input {
 }
 textarea {
     outline: none;
+    resize: none
 }
 ::placeholder {
     font-weight: 400;
